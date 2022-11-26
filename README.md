@@ -10,6 +10,7 @@ The data is annotated for named entities:
 4. Creative work
 5. Corporation
 6. Product
+
 Possible approaches include, rule based model, training Sequence to sequence model from scratch or use transformers.
 
 Rule based approcahes are not used here as it is exhaustive and maynot always converge to a generalization. The approach used in this experiment is to train a sequence to sequence model using LSTM.As per the size of the data and distributation of classes across the data, this approach promises to be fruitful. Due to lack of computational resources in the local machine, this notebook donot useses any Transformer based approaches.
